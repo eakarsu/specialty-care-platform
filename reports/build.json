@@ -1,0 +1,9 @@
+{
+  "app": "specialty-care-platform",
+  "features": 123,
+  "sourceApps": 10,
+  "calculatorEngines": 0,
+  "registryHash": "44f123c7f16c69e586de5dd299478c03eb2abad94d6c0e1a2f98a50623407d49",
+  "builtAt": "2026-09-07T22:05:28.374Z",
+  "status": "built"
+}

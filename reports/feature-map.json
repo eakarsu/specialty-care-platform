@@ -1,0 +1,1291 @@
+{
+  "mapped": [
+    {
+      "project": "ai-operating-room-block-capacity",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/ai-operating-room-block-capacity/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operating-room-block-capacity",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-operating-room-block-capacity/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operating-room-block-capacity",
+      "sourceKey": "integrations",
+      "source": "/Volumes/external/projects/ai-operating-room-block-capacity/frontend/src/App.jsx",
+      "canonical": "connections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/patients",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "patients",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/retinal-scans",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "retinal-scans",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/prescriptions",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "prescriptions",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/frames",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "frames",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/insurance",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "insurance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/inventory",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/appointments",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "appointments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/billing",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/contact-lenses",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "contact-lenses",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/visual-acuity",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "visual-acuity",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/recalls",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "recalls",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/diagnosis",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "diagnosis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "/ai-predictive",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "canonical": "predictive",
+      "kind": "definition"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "cf-agentic-patient-follow-up",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "agentic-patient-follow-up",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "cf-computer-vision-screening-automation",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "computer-vision-screening-automation",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "cf-insurance-pre-auth-automation",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "insurance-pre-auth-automation",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "cf-prescription-conflict-checking",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "prescription-conflict-checking",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "cf-style-fit-prediction",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "style-fit-prediction",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-patients-without-patient",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "patients-without-patient",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-appointments-without-schedule",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "appointments-without-schedule",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-frames-without-frame",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "frames-without-frame",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-recalls-without-recall",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "recalls-without-recall",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-limited-ehr-integration-some-integration-stubs-but",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "limited-ehr-integration-some-integration-stubs-but",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-no-referral-management-e-g-refer-to-ophthalmologis",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "referral-management-e-g-refer-to-ophthalmologis",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-no-telemedicine-remote-consultation",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "telemedicine-remote-consultation",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-no-patient-portal-for-self",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "patient-portal-for-self",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-no-manufacturer-integrations-for-inventory-auto",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "manufacturer-integrations-for-inventory-auto",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-no-webhooks-for-lab-imaging-system-events",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "webhooks-for-lab-imaging-system-events",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-no-frontend-pages-listed-per-tsv",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "frontend-pages-listed-per-tsv",
+      "kind": "route"
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "sourceKey": "gap-no-rbac-beyond-auth",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "canonical": "rbac-beyond-auth",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/patients",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "patients",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/therapists",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "therapists",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/exercises",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "exercises",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/exercise-videos",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "exercise-videos",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/treatment-plans",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "treatment-plans",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/movement-assessments",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "movement-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/recovery-progress",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "recovery-progress",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/home-exercise-programs",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "home-exercise-programs",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/appointments",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "appointments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/treatment-notes",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "treatment-notes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/pain-assessments",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "pain-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/outcome-measures",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "outcome-measures",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/billing",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/messages",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/waitlist",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "waitlist",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/cf-agentic-hep-execution",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "agentic-hep-execution",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/cf-movement-quality-scoring",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "movement-quality-scoring",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/cf-telehealth-live-feedback",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "telehealth-live-feedback",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/cf-outcome-prediction-intervention",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "outcome-prediction-intervention",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/cf-pain-science-education",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "pain-science-education",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-appointments-without-appointment",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "appointments-without-appointment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-patients-without-patient",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "patients-without-patient",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-exercises-without-exercise",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "exercises-without-exercise",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-limited-ehr-medical-records-integration-only-stub",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "limited-ehr-medical-records-integration-only-stub",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-no-wearable-integration-accelerometer-movement-dat",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "wearable-integration-accelerometer-movement-dat",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-no-remote-monitoring-telehealth-with-real",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "remote-monitoring-telehealth-with-real",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-limited-insurance-billing-automation",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "limited-insurance-billing-automation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-no-integration-with-fitness-activity-trackers",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "integration-with-fitness-activity-trackers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-no-notifications-module-grep-0",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "notifications-module-grep-0",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-no-webhooks-for-referral-events",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "webhooks-for-referral-events",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/gap-limited-mobile-app-1-mobile-reference-despite-hep-",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "canonical": "limited-mobile-app-1-mobile-reference-despite-hep",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "analyze-movement",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+      "canonical": "analyze-movement",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "generate-treatment-plan",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+      "canonical": "generate-treatment-plan",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "assess-recovery",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+      "canonical": "assess-recovery",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "recommend-exercises",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+      "canonical": "recommend-exercises",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "generate-hep",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+      "canonical": "generate-hep",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "generate-soap",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+      "canonical": "generate-soap",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "analyze-pain",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+      "canonical": "analyze-pain",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "predict-outcomes",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+      "canonical": "predict-outcomes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/movement-assessments",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/Dashboard.jsx",
+      "canonical": "movement-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/home-exercise-programs",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/Dashboard.jsx",
+      "canonical": "home-exercise-programs",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/billing",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/Dashboard.jsx",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/Dashboard.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "ai-analysis",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "ai-history",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "history",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "audit-log",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "outcome-score-calculator",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "outcome-score-calculator",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "rom-calculator",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "rom-calculator",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "exercise-prescription",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "exercise-prescription",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "progress-chart",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "progress-chart",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "appointment-optimize",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "appointment-optimize",
+      "kind": "route"
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "sourceKey": "patient-dropout-predict",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "canonical": "patient-dropout-predict",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/patients",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "patients",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/vitals",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "vitals",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/medications",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "medications",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/care-plans",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "care-plans",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/appointments",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "appointments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/consultations",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "consultations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/devices",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "devices",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/alerts",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/billing",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/emergency",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "emergency",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/escalation-ladder",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "escalation-ladder",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/ai-analytics",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/simulator",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "simulator",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/shared-decision",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "shared-decision",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/longitudinal-trajectory",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "longitudinal-trajectory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/cost-aware-plan",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "cost-aware-plan",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/caregiver-coaching",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "caregiver-coaching",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-anomaly-detection-on-vitals-stream",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "anomaly-detection-on-vitals-stream",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-caregiver-portal",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "caregiver-portal",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-cgm-data-pipeline-dexcom-libre",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "cgm-data-pipeline-dexcom-libre",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-decompensationalert-predict-acute-events",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "decompensationalert-predict-acute-events",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-ehr-hl7fhir-connector",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "ehr-hl7fhir-connector",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-medication-refill-automation-pharmacy-int",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "medication-refill-automation-pharmacy-int",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-medicationoptimization-appropriateness-co",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "medicationoptimization-appropriateness-co",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-mentalhealthscreening-phq9-gad7-automatio",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "mentalhealthscreening-phq9-gad7-automatio",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-patient-messaging-secure-inbox",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "patient-messaging-secure-inbox",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-patienteducationcustomizer-literacylangua",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "patienteducationcustomizer-literacylangua",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-phr-export-ccda-fhir-bulk",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "phr-export-ccda-fhir-bulk",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-socialdeterminantsassessment",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "socialdeterminantsassessment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-telehealth-video-integration",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "telehealth-video-integration",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/gap-no-wearable-integration-apple-health-fitbit",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "canonical": "wearable-integration-apple-health-fitbit",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/patients",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+      "canonical": "patients",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/alerts",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+      "canonical": "alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/devices",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+      "canonical": "devices",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/billing",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "/emergency",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+      "canonical": "emergency",
+      "kind": "definition"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "decompensation-alert",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "decompensationalert-predict-acute-events",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "social-determinants",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "socialdeterminantsassessment",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "mental-health-screening",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "mental-health-screening",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "medication-optimization",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "medication-optimization",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "patient-education",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "patienteducationcustomizer-literacylangua",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "cf-predictive-decompensation-alerts",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "predictive-decompensation-alerts",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "cf-shared-decisionmaking-tool",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "shared-decisionmaking-tool",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "cf-social-prescribing-recommendations",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "social-prescribing-recommendations",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "cf-longitudinal-health-trajectory",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "longitudinal-health-trajectory",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "cf-costaware-treatment-planning",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "costaware-treatment-planning",
+      "kind": "route"
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "sourceKey": "cf-caregiver-support-coaching",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "canonical": "caregiver-support-coaching",
+      "kind": "route"
+    },
+    {
+      "project": "cardiology-remote-monitoring-suite",
+      "sourceKey": "rules",
+      "source": "/Volumes/external/projects/cardiology-remote-monitoring-suite/public/app.js",
+      "canonical": "rules",
+      "kind": "definition"
+    },
+    {
+      "project": "cardiology-remote-monitoring-suite",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/cardiology-remote-monitoring-suite/public/app.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "dialysis-center-operations-suite",
+      "sourceKey": "rules",
+      "source": "/Volumes/external/projects/dialysis-center-operations-suite/public/app.js",
+      "canonical": "rules",
+      "kind": "definition"
+    },
+    {
+      "project": "dialysis-center-operations-suite",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/dialysis-center-operations-suite/public/app.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "fertility-ivf-clinic-operations-suite",
+      "sourceKey": "rules",
+      "source": "/Volumes/external/projects/fertility-ivf-clinic-operations-suite/public/app.js",
+      "canonical": "rules",
+      "kind": "definition"
+    },
+    {
+      "project": "fertility-ivf-clinic-operations-suite",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/fertility-ivf-clinic-operations-suite/public/app.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "infusion-center-operations-suite",
+      "sourceKey": "rules",
+      "source": "/Volumes/external/projects/infusion-center-operations-suite/public/app.js",
+      "canonical": "rules",
+      "kind": "definition"
+    },
+    {
+      "project": "infusion-center-operations-suite",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/infusion-center-operations-suite/public/app.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "oncology-care-navigation-suite",
+      "sourceKey": "rules",
+      "source": "/Volumes/external/projects/oncology-care-navigation-suite/public/app.js",
+      "canonical": "rules",
+      "kind": "definition"
+    },
+    {
+      "project": "oncology-care-navigation-suite",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/oncology-care-navigation-suite/public/app.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "physicalThreapy",
+      "sourceKey": "patients",
+      "source": "/Volumes/external/projects/physicalThreapy",
+      "canonical": "patients",
+      "kind": "route"
+    },
+    {
+      "project": "physicalThreapy",
+      "sourceKey": "appointments",
+      "source": "/Volumes/external/projects/physicalThreapy",
+      "canonical": "appointments",
+      "kind": "route"
+    },
+    {
+      "project": "physicalThreapy",
+      "sourceKey": "sessions",
+      "source": "/Volumes/external/projects/physicalThreapy",
+      "canonical": "sessions",
+      "kind": "route"
+    },
+    {
+      "project": "physicalThreapy",
+      "sourceKey": "billing",
+      "source": "/Volumes/external/projects/physicalThreapy",
+      "canonical": "billing",
+      "kind": "route"
+    },
+    {
+      "project": "physicalThreapy",
+      "sourceKey": "messages",
+      "source": "/Volumes/external/projects/physicalThreapy",
+      "canonical": "messages",
+      "kind": "route"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AIOptometryAssistant",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIOptometryAssistant",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIOptometryAssistant",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "/patient-profile/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIPhysicalTherapyMovementAnalyzer",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIRemotePatientMonitoring",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "cardiology-remote-monitoring-suite",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/cardiology-remote-monitoring-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "cardiology-remote-monitoring-suite",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/cardiology-remote-monitoring-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "dialysis-center-operations-suite",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/dialysis-center-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "dialysis-center-operations-suite",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/dialysis-center-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "fertility-ivf-clinic-operations-suite",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/fertility-ivf-clinic-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "fertility-ivf-clinic-operations-suite",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/fertility-ivf-clinic-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "infusion-center-operations-suite",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/infusion-center-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "infusion-center-operations-suite",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/infusion-center-operations-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "oncology-care-navigation-suite",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/oncology-care-navigation-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "oncology-care-navigation-suite",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/oncology-care-navigation-suite/public/app.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "physicalThreapy",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/physicalThreapy",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "physicalThreapy",
+      "key": "settings",
+      "source": "/Volumes/external/projects/physicalThreapy",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    }
+  ],
+  "migrationWarnings": []
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ai-operating-room-block-capacity",
+    "name": "Operating room block capacity",
+    "sourceProject": "ai-operating-room-block-capacity",
+    "services": []
+  },
+  {
+    "id": "AIOptometryAssistant",
+    "name": "Optometry assistant",
+    "sourceProject": "AIOptometryAssistant",
+    "services": []
+  },
+  {
+    "id": "AIPhysicalTherapyMovementAnalyzer",
+    "name": "Physical therapy movement analyzer",
+    "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+    "services": []
+  },
+  {
+    "id": "AIRemotePatientMonitoring",
+    "name": "Remote patient monitoring",
+    "sourceProject": "AIRemotePatientMonitoring",
+    "services": []
+  },
+  {
+    "id": "cardiology-remote-monitoring-suite",
+    "name": "Cardiology remote monitoring suite",
+    "sourceProject": "cardiology-remote-monitoring-suite",
+    "services": []
+  },
+  {
+    "id": "dialysis-center-operations-suite",
+    "name": "Dialysis center operations suite",
+    "sourceProject": "dialysis-center-operations-suite",
+    "services": []
+  },
+  {
+    "id": "fertility-ivf-clinic-operations-suite",
+    "name": "Fertility ivf clinic operations suite",
+    "sourceProject": "fertility-ivf-clinic-operations-suite",
+    "services": []
+  },
+  {
+    "id": "infusion-center-operations-suite",
+    "name": "Infusion center operations suite",
+    "sourceProject": "infusion-center-operations-suite",
+    "services": []
+  },
+  {
+    "id": "oncology-care-navigation-suite",
+    "name": "Oncology care navigation suite",
+    "sourceProject": "oncology-care-navigation-suite",
+    "services": []
+  },
+  {
+    "id": "physicalThreapy",
+    "name": "Physical threapy",
+    "sourceProject": "physicalThreapy",
+    "services": []
+  }
+]

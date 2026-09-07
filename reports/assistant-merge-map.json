@@ -1,0 +1,186 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 3 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "diagnosis",
+      "movement-assessments",
+      "pain-assessments",
+      "generate-treatment-plan",
+      "assess-recovery",
+      "generate-hep",
+      "generate-soap"
+    ],
+    "ai": true,
+    "representativeId": "diagnosis",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "diagnosis",
+        "title": "AI Diagnosis",
+        "originalPath": "/features/diagnosis"
+      },
+      {
+        "id": "movement-assessments",
+        "title": "Assessments",
+        "originalPath": "/features/movement-assessments"
+      },
+      {
+        "id": "pain-assessments",
+        "title": "Pain Assessments",
+        "originalPath": "/features/pain-assessments"
+      },
+      {
+        "id": "generate-treatment-plan",
+        "title": "Generate Treatment Plan",
+        "originalPath": "/features/generate-treatment-plan"
+      },
+      {
+        "id": "assess-recovery",
+        "title": "Assess Recovery",
+        "originalPath": "/features/assess-recovery"
+      },
+      {
+        "id": "generate-hep",
+        "title": "Generate HEP",
+        "originalPath": "/features/generate-hep"
+      },
+      {
+        "id": "generate-soap",
+        "title": "Generate SOAP Note",
+        "originalPath": "/features/generate-soap"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "predictive",
+      "style-fit-prediction",
+      "outcome-prediction-intervention",
+      "analyze-movement",
+      "recommend-exercises",
+      "analyze-pain",
+      "predict-outcomes",
+      "analysis",
+      "patient-dropout-predict",
+      "predictive-decompensation-alerts",
+      "social-prescribing-recommendations"
+    ],
+    "ai": true,
+    "representativeId": "predictive",
+    "description": "One assistant for 11 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "predictive",
+        "title": "AI Predictive",
+        "originalPath": "/features/predictive"
+      },
+      {
+        "id": "style-fit-prediction",
+        "title": "style fit prediction",
+        "originalPath": "/features/style-fit-prediction"
+      },
+      {
+        "id": "outcome-prediction-intervention",
+        "title": "Outcome prediction + intervention",
+        "originalPath": "/features/outcome-prediction-intervention"
+      },
+      {
+        "id": "analyze-movement",
+        "title": "Analyze Movement Form",
+        "originalPath": "/features/analyze-movement"
+      },
+      {
+        "id": "recommend-exercises",
+        "title": "Recommend Exercises",
+        "originalPath": "/features/recommend-exercises"
+      },
+      {
+        "id": "analyze-pain",
+        "title": "Analyze Pain Patterns",
+        "originalPath": "/features/analyze-pain"
+      },
+      {
+        "id": "predict-outcomes",
+        "title": "Predict Treatment Outcomes",
+        "originalPath": "/features/predict-outcomes"
+      },
+      {
+        "id": "analysis",
+        "title": "Analysis",
+        "originalPath": "/features/analysis"
+      },
+      {
+        "id": "patient-dropout-predict",
+        "title": "Patient dropout predict",
+        "originalPath": "/features/patient-dropout-predict"
+      },
+      {
+        "id": "predictive-decompensation-alerts",
+        "title": "predictive decompensation alerts",
+        "originalPath": "/features/predictive-decompensation-alerts"
+      },
+      {
+        "id": "social-prescribing-recommendations",
+        "title": "social prescribing recommendations",
+        "originalPath": "/features/social-prescribing-recommendations"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "history"
+    ],
+    "ai": true,
+    "representativeId": "history",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "history",
+        "title": "History",
+        "originalPath": "/features/history"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+ai-operating-room-block-capacity
+AIOptometryAssistant
+AIPhysicalTherapyMovementAnalyzer
+AIRemotePatientMonitoring
+cardiology-remote-monitoring-suite
+dialysis-center-operations-suite
+fertility-ivf-clinic-operations-suite
+infusion-center-operations-suite
+oncology-care-navigation-suite
+physicalThreapy

@@ -1,0 +1,5084 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/billing",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Billing"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/billing",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Billing"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/billing",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Billing & Insurance"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/billing",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Billing"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/billing",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Billing & Insurance"
+      },
+      {
+        "module": "physicalThreapy",
+        "path": "billing",
+        "source": "/Volumes/external/projects/physicalThreapy",
+        "kind": "route",
+        "label": "Billing"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/messages",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Messages"
+      },
+      {
+        "module": "physicalThreapy",
+        "path": "messages",
+        "source": "/Volumes/external/projects/physicalThreapy",
+        "kind": "route",
+        "label": "Messages"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "ai-operating-room-block-capacity",
+        "path": "reports",
+        "source": "/Volumes/external/projects/ai-operating-room-block-capacity/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Domain Analytics"
+      },
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Reports & Analytics"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/ai-analytics",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "AI Analytics"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Patient Reports"
+      },
+      {
+        "module": "cardiology-remote-monitoring-suite",
+        "path": "reports",
+        "source": "/Volumes/external/projects/cardiology-remote-monitoring-suite/public/app.js",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "dialysis-center-operations-suite",
+        "path": "reports",
+        "source": "/Volumes/external/projects/dialysis-center-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "fertility-ivf-clinic-operations-suite",
+        "path": "reports",
+        "source": "/Volumes/external/projects/fertility-ivf-clinic-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "infusion-center-operations-suite",
+        "path": "reports",
+        "source": "/Volumes/external/projects/infusion-center-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "oncology-care-navigation-suite",
+        "path": "reports",
+        "source": "/Volumes/external/projects/oncology-care-navigation-suite/public/app.js",
+        "kind": "definition",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-operating-room-block-capacity",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-operating-room-block-capacity/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "audit-log",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "Audit log"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "ai-operating-room-block-capacity",
+        "path": "integrations",
+        "source": "/Volumes/external/projects/ai-operating-room-block-capacity/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Source Systems"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patients",
+    "title": "Patients",
+    "group": "Optometry assistant",
+    "description": "Organize patients and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/patients",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Patients"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/patients",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Patients"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/patients",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Patients"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/patients",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Patient Management"
+      },
+      {
+        "module": "physicalThreapy",
+        "path": "patients",
+        "source": "/Volumes/external/projects/physicalThreapy",
+        "kind": "route",
+        "label": "Patients"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/patients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "retinal-scans",
+    "title": "Retinal Scans",
+    "group": "Optometry assistant",
+    "description": "Organize retinal scans and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/retinal-scans",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Retinal Scans"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/retinal-scans",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prescriptions",
+    "title": "Prescriptions",
+    "group": "Optometry assistant",
+    "description": "Organize prescriptions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/prescriptions",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Prescriptions"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/prescriptions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "frames",
+    "title": "Frames",
+    "group": "Optometry assistant",
+    "description": "Organize frames and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/frames",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Frames"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/frames",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance",
+    "title": "Insurance",
+    "group": "Optometry assistant",
+    "description": "Organize insurance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/insurance",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Insurance"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/insurance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory",
+    "title": "Inventory",
+    "group": "Optometry assistant",
+    "description": "Organize inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/inventory",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Inventory"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointments",
+    "title": "Appointments",
+    "group": "Optometry assistant",
+    "description": "Organize appointments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/appointments",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Appointments"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/appointments",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Appointments"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/appointments",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Appointments"
+      },
+      {
+        "module": "physicalThreapy",
+        "path": "appointments",
+        "source": "/Volumes/external/projects/physicalThreapy",
+        "kind": "route",
+        "label": "Appointments"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/appointments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contact-lenses",
+    "title": "Contact Lenses",
+    "group": "Optometry assistant",
+    "description": "Organize contact lenses and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/contact-lenses",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Contact Lenses"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/contact-lenses",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "visual-acuity",
+    "title": "Visual Acuity",
+    "group": "Optometry assistant",
+    "description": "Organize visual acuity and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/visual-acuity",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Visual Acuity"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/visual-acuity",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recalls",
+    "title": "Patient Recalls",
+    "group": "Optometry assistant",
+    "description": "Organize patient recalls and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/recalls",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Patient Recalls"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/recalls",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "diagnosis",
+    "title": "AI Diagnosis",
+    "group": "Optometry assistant",
+    "description": "Organize ai diagnosis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/diagnosis",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Diagnosis"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/diagnosis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive",
+    "title": "AI Predictive",
+    "group": "Optometry assistant",
+    "description": "Organize ai predictive and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "/ai-predictive",
+        "source": "/Volumes/external/projects/AIOptometryAssistant/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Predictive"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/predictive",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-patient-follow-up",
+    "title": "agentic patient follow up",
+    "group": "Optometry assistant",
+    "description": "Organize agentic patient follow up and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "cf-agentic-patient-follow-up",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "agentic patient follow up"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/agentic-patient-follow-up",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "computer-vision-screening-automation",
+    "title": "computer vision screening automation",
+    "group": "Optometry assistant",
+    "description": "Organize computer vision screening automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "cf-computer-vision-screening-automation",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "computer vision screening automation"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/computer-vision-screening-automation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-pre-auth-automation",
+    "title": "insurance pre auth automation",
+    "group": "Optometry assistant",
+    "description": "Organize insurance pre auth automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "cf-insurance-pre-auth-automation",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "insurance pre auth automation"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/insurance-pre-auth-automation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prescription-conflict-checking",
+    "title": "prescription conflict checking",
+    "group": "Optometry assistant",
+    "description": "Organize prescription conflict checking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "cf-prescription-conflict-checking",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "prescription conflict checking"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/prescription-conflict-checking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "style-fit-prediction",
+    "title": "style fit prediction",
+    "group": "Optometry assistant",
+    "description": "Organize style fit prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "cf-style-fit-prediction",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "style fit prediction"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/style-fit-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patients-without-patient",
+    "title": "patients without patient",
+    "group": "Optometry assistant",
+    "description": "Organize patients without patient and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-patients-without-patient",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "patients without patient"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-patients-without-patient",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Patients without `/patient"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/patients-without-patient",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointments-without-schedule",
+    "title": "appointments without schedule",
+    "group": "Optometry assistant",
+    "description": "Organize appointments without schedule and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-appointments-without-schedule",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "appointments without schedule"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/appointments-without-schedule",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "frames-without-frame",
+    "title": "frames without frame",
+    "group": "Optometry assistant",
+    "description": "Organize frames without frame and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-frames-without-frame",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "frames without frame"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/frames-without-frame",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recalls-without-recall",
+    "title": "recalls without recall",
+    "group": "Optometry assistant",
+    "description": "Organize recalls without recall and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-recalls-without-recall",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "recalls without recall"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/recalls-without-recall",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-ehr-integration-some-integration-stubs-but",
+    "title": "limited ehr integration some integration stubs but",
+    "group": "Optometry assistant",
+    "description": "Prepare limited ehr integration some integration stubs but requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-limited-ehr-integration-some-integration-stubs-but",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "limited ehr integration some integration stubs but"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/limited-ehr-integration-some-integration-stubs-but",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "referral-management-e-g-refer-to-ophthalmologis",
+    "title": "referral management e g refer to ophthalmologis",
+    "group": "Optometry assistant",
+    "description": "Organize referral management e g refer to ophthalmologis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-no-referral-management-e-g-refer-to-ophthalmologis",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "referral management e g refer to ophthalmologis"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/referral-management-e-g-refer-to-ophthalmologis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "telemedicine-remote-consultation",
+    "title": "telemedicine remote consultation",
+    "group": "Optometry assistant",
+    "description": "Organize telemedicine remote consultation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-no-telemedicine-remote-consultation",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "telemedicine remote consultation"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/telemedicine-remote-consultation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patient-portal-for-self",
+    "title": "patient portal for self",
+    "group": "Optometry assistant",
+    "description": "Organize patient portal for self and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-no-patient-portal-for-self",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "patient portal for self"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/patient-portal-for-self",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "manufacturer-integrations-for-inventory-auto",
+    "title": "manufacturer integrations for inventory auto",
+    "group": "Optometry assistant",
+    "description": "Prepare manufacturer integrations for inventory auto requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-no-manufacturer-integrations-for-inventory-auto",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "manufacturer integrations for inventory auto"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/manufacturer-integrations-for-inventory-auto",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks-for-lab-imaging-system-events",
+    "title": "webhooks for lab imaging system events",
+    "group": "Optometry assistant",
+    "description": "Prepare webhooks for lab imaging system events requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-no-webhooks-for-lab-imaging-system-events",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "webhooks for lab imaging system events"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/webhooks-for-lab-imaging-system-events",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "frontend-pages-listed-per-tsv",
+    "title": "frontend pages listed per tsv",
+    "group": "Optometry assistant",
+    "description": "Organize frontend pages listed per tsv and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-no-frontend-pages-listed-per-tsv",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "frontend pages listed per tsv"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/frontend-pages-listed-per-tsv",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rbac-beyond-auth",
+    "title": "rbac beyond auth",
+    "group": "Optometry assistant",
+    "description": "Organize rbac beyond auth and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIOptometryAssistant",
+        "path": "gap-no-rbac-beyond-auth",
+        "source": "/Volumes/external/projects/AIOptometryAssistant",
+        "kind": "route",
+        "label": "rbac beyond auth"
+      }
+    ],
+    "owner": "AIOptometryAssistant",
+    "alternatives": [],
+    "path": "/features/rbac-beyond-auth",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "therapists",
+    "title": "Therapists",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize therapists and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/therapists",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Therapists"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/therapists",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exercises",
+    "title": "Exercise Library",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize exercise library and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/exercises",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Exercise Library"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/exercises",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exercise-videos",
+    "title": "Exercise Videos",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize exercise videos and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/exercise-videos",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Exercise Videos"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/exercise-videos",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "treatment-plans",
+    "title": "Treatment Plans",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize treatment plans and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/treatment-plans",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Treatment Plans"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/treatment-plans",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "movement-assessments",
+    "title": "Assessments",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize assessments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/movement-assessments",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Assessments"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/movement-assessments",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Movement Assessments"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/movement-assessments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recovery-progress",
+    "title": "Recovery Progress",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize recovery progress and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/recovery-progress",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Recovery Progress"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/recovery-progress",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "home-exercise-programs",
+    "title": "Home Programs",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize home programs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/home-exercise-programs",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Home Programs"
+      },
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/home-exercise-programs",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Home Exercise Programs"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/home-exercise-programs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "treatment-notes",
+    "title": "Treatment Notes",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize treatment notes and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/treatment-notes",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Treatment Notes"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/treatment-notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pain-assessments",
+    "title": "Pain Assessments",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize pain assessments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/pain-assessments",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Pain Assessments"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/pain-assessments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "outcome-measures",
+    "title": "Outcome Measures",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize outcome measures and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/outcome-measures",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Outcome Measures"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/outcome-measures",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "waitlist",
+    "title": "Waitlist",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize waitlist and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/waitlist",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Waitlist"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/waitlist",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-hep-execution",
+    "title": "Agentic HEP execution",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize agentic hep execution and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/cf-agentic-hep-execution",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Agentic HEP execution"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/agentic-hep-execution",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "movement-quality-scoring",
+    "title": "Movement quality scoring",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize movement quality scoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/cf-movement-quality-scoring",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Movement quality scoring"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/movement-quality-scoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "telehealth-live-feedback",
+    "title": "Telehealth live feedback",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize telehealth live feedback and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/cf-telehealth-live-feedback",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Telehealth live feedback"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/telehealth-live-feedback",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "outcome-prediction-intervention",
+    "title": "Outcome prediction + intervention",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize outcome prediction + intervention and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/cf-outcome-prediction-intervention",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Outcome prediction + intervention"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/outcome-prediction-intervention",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pain-science-education",
+    "title": "Pain science education",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize pain science education and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/cf-pain-science-education",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Pain science education"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/pain-science-education",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointments-without-appointment",
+    "title": "Appointments without `/appointment",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize appointments without `/appointment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-appointments-without-appointment",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Appointments without `/appointment"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/appointments-without-appointment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exercises-without-exercise",
+    "title": "Exercises without `/exercise",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize exercises without `/exercise and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-exercises-without-exercise",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Exercises without `/exercise"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/exercises-without-exercise",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-ehr-medical-records-integration-only-stub",
+    "title": "Limited EHR/medical records integration (only stub)",
+    "group": "Physical therapy movement analyzer",
+    "description": "Prepare limited ehr/medical records integration (only stub) requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-limited-ehr-medical-records-integration-only-stub",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Limited EHR/medical records integration (only stub)"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/limited-ehr-medical-records-integration-only-stub",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "wearable-integration-accelerometer-movement-dat",
+    "title": "No wearable integration (accelerometer movement data)",
+    "group": "Physical therapy movement analyzer",
+    "description": "Prepare no wearable integration (accelerometer movement data) requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-no-wearable-integration-accelerometer-movement-dat",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "No wearable integration (accelerometer movement data)"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/wearable-integration-accelerometer-movement-dat",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "remote-monitoring-telehealth-with-real",
+    "title": "No remote monitoring (telehealth with real",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize no remote monitoring (telehealth with real and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-no-remote-monitoring-telehealth-with-real",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "No remote monitoring (telehealth with real"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/remote-monitoring-telehealth-with-real",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-insurance-billing-automation",
+    "title": "Limited insurance billing automation",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize limited insurance billing automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-limited-insurance-billing-automation",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Limited insurance billing automation"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/limited-insurance-billing-automation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "integration-with-fitness-activity-trackers",
+    "title": "No integration with fitness/activity trackers",
+    "group": "Physical therapy movement analyzer",
+    "description": "Prepare no integration with fitness/activity trackers requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-no-integration-with-fitness-activity-trackers",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "No integration with fitness/activity trackers"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/integration-with-fitness-activity-trackers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notifications-module-grep-0",
+    "title": "No notifications module (grep 0)",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize no notifications module (grep 0) and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-no-notifications-module-grep-0",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "No notifications module (grep 0)"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/notifications-module-grep-0",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks-for-referral-events",
+    "title": "No webhooks for referral events",
+    "group": "Physical therapy movement analyzer",
+    "description": "Prepare no webhooks for referral events requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-no-webhooks-for-referral-events",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "No webhooks for referral events"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/webhooks-for-referral-events",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-mobile-app-1-mobile-reference-despite-hep",
+    "title": "Limited mobile app (1 mobile reference) despite HEP delivery domain",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize limited mobile app (1 mobile reference) despite hep delivery domain and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "/gap-limited-mobile-app-1-mobile-reference-despite-hep-",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Limited mobile app (1 mobile reference) despite HEP delivery domain"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/limited-mobile-app-1-mobile-reference-despite-hep",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analyze-movement",
+    "title": "Analyze Movement Form",
+    "group": "Physical therapy movement analyzer",
+    "description": "AI-powered analysis of patient exercise form and technique",
+    "fields": [
+      {
+        "name": "patientName",
+        "label": "Patient Name",
+        "type": "text"
+      },
+      {
+        "name": "exerciseName",
+        "label": "Exercise Name",
+        "type": "text"
+      },
+      {
+        "name": "bodyRegion",
+        "label": "Body Region",
+        "type": "text"
+      },
+      {
+        "name": "movementDescription",
+        "label": "Movement Description",
+        "type": "textarea"
+      },
+      {
+        "name": "observedIssues",
+        "label": "Observed Issues",
+        "type": "textarea"
+      },
+      {
+        "name": "painLevel",
+        "label": "Pain Level (0-10)",
+        "type": "number"
+      },
+      {
+        "name": "rangeOfMotion",
+        "label": "Range of Motion",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "analyze-movement",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+        "kind": "definition",
+        "label": "Analyze Movement Form"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/analyze-movement",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "generate-treatment-plan",
+    "title": "Generate Treatment Plan",
+    "group": "Physical therapy movement analyzer",
+    "description": "AI-generated comprehensive treatment protocol",
+    "fields": [
+      {
+        "name": "patientName",
+        "label": "Patient Name",
+        "type": "text"
+      },
+      {
+        "name": "age",
+        "label": "Age",
+        "type": "number"
+      },
+      {
+        "name": "diagnosis",
+        "label": "Diagnosis/Condition",
+        "type": "text"
+      },
+      {
+        "name": "severity",
+        "label": "Severity",
+        "type": "select",
+        "options": [
+          "mild",
+          "moderate",
+          "severe"
+        ]
+      },
+      {
+        "name": "surgeryDate",
+        "label": "Surgery Date (if applicable)",
+        "type": "date"
+      },
+      {
+        "name": "medicalHistory",
+        "label": "Medical History",
+        "type": "textarea"
+      },
+      {
+        "name": "goals",
+        "label": "Patient Goals",
+        "type": "textarea"
+      },
+      {
+        "name": "frequency",
+        "label": "Preferred Frequency",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "generate-treatment-plan",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+        "kind": "definition",
+        "label": "Generate Treatment Plan"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/generate-treatment-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "assess-recovery",
+    "title": "Assess Recovery",
+    "group": "Physical therapy movement analyzer",
+    "description": "AI assessment of patient recovery trajectory",
+    "fields": [
+      {
+        "name": "patientName",
+        "label": "Patient Name",
+        "type": "text"
+      },
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "text"
+      },
+      {
+        "name": "weeksSinceOnset",
+        "label": "Weeks Since Onset/Surgery",
+        "type": "number"
+      },
+      {
+        "name": "currentPainLevel",
+        "label": "Current Pain Level (0-10)",
+        "type": "number"
+      },
+      {
+        "name": "initialPainLevel",
+        "label": "Initial Pain Level (0-10)",
+        "type": "number"
+      },
+      {
+        "name": "currentROM",
+        "label": "Current Range of Motion",
+        "type": "text"
+      },
+      {
+        "name": "strengthLevel",
+        "label": "Strength Level",
+        "type": "select",
+        "options": [
+          "1/5",
+          "2/5",
+          "3/5",
+          "4/5",
+          "5/5"
+        ]
+      },
+      {
+        "name": "functionalAbilities",
+        "label": "Current Functional Abilities",
+        "type": "textarea"
+      },
+      {
+        "name": "complianceRate",
+        "label": "HEP Compliance Rate (%)",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "assess-recovery",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+        "kind": "definition",
+        "label": "Assess Recovery"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/assess-recovery",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recommend-exercises",
+    "title": "Recommend Exercises",
+    "group": "Physical therapy movement analyzer",
+    "description": "AI-recommended therapeutic exercises for specific conditions",
+    "fields": [
+      {
+        "name": "condition",
+        "label": "Condition/Injury",
+        "type": "text"
+      },
+      {
+        "name": "phase",
+        "label": "Rehabilitation Phase",
+        "type": "select",
+        "options": [
+          "acute",
+          "subacute",
+          "chronic",
+          "post-surgical-early",
+          "post-surgical-late",
+          "maintenance"
+        ]
+      },
+      {
+        "name": "painLevel",
+        "label": "Current Pain Level (0-10)",
+        "type": "number"
+      },
+      {
+        "name": "restrictions",
+        "label": "Restrictions/Precautions",
+        "type": "textarea"
+      },
+      {
+        "name": "equipment",
+        "label": "Available Equipment",
+        "type": "text"
+      },
+      {
+        "name": "fitnessLevel",
+        "label": "Fitness Level",
+        "type": "select",
+        "options": [
+          "sedentary",
+          "low",
+          "moderate",
+          "active",
+          "athletic"
+        ]
+      },
+      {
+        "name": "goals",
+        "label": "Goals",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "recommend-exercises",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+        "kind": "definition",
+        "label": "Recommend Exercises"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/recommend-exercises",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "generate-hep",
+    "title": "Generate HEP",
+    "group": "Physical therapy movement analyzer",
+    "description": "AI-generated home exercise program tailored to the patient",
+    "fields": [
+      {
+        "name": "patientName",
+        "label": "Patient Name",
+        "type": "text"
+      },
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "text"
+      },
+      {
+        "name": "phase",
+        "label": "Rehabilitation Phase",
+        "type": "select",
+        "options": [
+          "acute",
+          "subacute",
+          "chronic",
+          "maintenance"
+        ]
+      },
+      {
+        "name": "frequency",
+        "label": "Program Frequency",
+        "type": "text"
+      },
+      {
+        "name": "duration",
+        "label": "Program Duration",
+        "type": "text"
+      },
+      {
+        "name": "painLevel",
+        "label": "Pain Level (0-10)",
+        "type": "number"
+      },
+      {
+        "name": "restrictions",
+        "label": "Restrictions",
+        "type": "textarea"
+      },
+      {
+        "name": "goals",
+        "label": "Patient Goals",
+        "type": "textarea"
+      },
+      {
+        "name": "homeEquipment",
+        "label": "Equipment at Home",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "generate-hep",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+        "kind": "definition",
+        "label": "Generate HEP"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/generate-hep",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "generate-soap",
+    "title": "Generate SOAP Note",
+    "group": "Physical therapy movement analyzer",
+    "description": "AI-generated SOAP documentation from session information",
+    "fields": [
+      {
+        "name": "patientName",
+        "label": "Patient Name",
+        "type": "text"
+      },
+      {
+        "name": "sessionDate",
+        "label": "Session Date",
+        "type": "date"
+      },
+      {
+        "name": "diagnosis",
+        "label": "Diagnosis",
+        "type": "text"
+      },
+      {
+        "name": "patientComplaints",
+        "label": "Patient Complaints/Symptoms",
+        "type": "textarea"
+      },
+      {
+        "name": "vitalSigns",
+        "label": "Vital Signs/Measurements",
+        "type": "textarea"
+      },
+      {
+        "name": "treatmentPerformed",
+        "label": "Treatment Performed",
+        "type": "textarea"
+      },
+      {
+        "name": "patientResponse",
+        "label": "Patient Response to Treatment",
+        "type": "textarea"
+      },
+      {
+        "name": "sessionDuration",
+        "label": "Session Duration (min)",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "generate-soap",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+        "kind": "definition",
+        "label": "Generate SOAP Note"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/generate-soap",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analyze-pain",
+    "title": "Analyze Pain Patterns",
+    "group": "Physical therapy movement analyzer",
+    "description": "AI analysis of pain patterns with intervention recommendations",
+    "fields": [
+      {
+        "name": "patientName",
+        "label": "Patient Name",
+        "type": "text"
+      },
+      {
+        "name": "bodyRegions",
+        "label": "Body Regions Affected",
+        "type": "text"
+      },
+      {
+        "name": "painTypes",
+        "label": "Pain Types Reported",
+        "type": "text"
+      },
+      {
+        "name": "triggers",
+        "label": "Known Triggers",
+        "type": "textarea"
+      },
+      {
+        "name": "painHistory",
+        "label": "Pain History",
+        "type": "textarea"
+      },
+      {
+        "name": "currentMedications",
+        "label": "Current Medications",
+        "type": "text"
+      },
+      {
+        "name": "functionalLimitations",
+        "label": "Functional Limitations",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "analyze-pain",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+        "kind": "definition",
+        "label": "Analyze Pain Patterns"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/analyze-pain",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predict-outcomes",
+    "title": "Predict Treatment Outcomes",
+    "group": "Physical therapy movement analyzer",
+    "description": "AI-predicted treatment outcomes based on patient data",
+    "fields": [
+      {
+        "name": "patientName",
+        "label": "Patient Name",
+        "type": "text"
+      },
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "text"
+      },
+      {
+        "name": "age",
+        "label": "Age",
+        "type": "number"
+      },
+      {
+        "name": "measureType",
+        "label": "Outcome Measure",
+        "type": "select",
+        "options": [
+          "DASH",
+          "ODI",
+          "LEFS",
+          "NDI",
+          "VAS",
+          "SF-36",
+          "BERG",
+          "TUG",
+          "FIM"
+        ]
+      },
+      {
+        "name": "currentScore",
+        "label": "Current Score",
+        "type": "number"
+      },
+      {
+        "name": "previousScores",
+        "label": "Previous Scores",
+        "type": "text"
+      },
+      {
+        "name": "weeksInTreatment",
+        "label": "Weeks in Treatment",
+        "type": "number"
+      },
+      {
+        "name": "complianceRate",
+        "label": "HEP Compliance (%)",
+        "type": "number"
+      },
+      {
+        "name": "comorbidities",
+        "label": "Comorbidities",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "predict-outcomes",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer/frontend/src/pages/AIAnalysis.jsx",
+        "kind": "definition",
+        "label": "Predict Treatment Outcomes"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/predict-outcomes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analysis",
+    "title": "Analysis",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "ai-analysis",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "Analysis"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "history",
+    "title": "History",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize history and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "ai-history",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "History"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/history",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "outcome-score-calculator",
+    "title": "Outcome score calculator",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize outcome score calculator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "outcome-score-calculator",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "Outcome score calculator"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/outcome-score-calculator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rom-calculator",
+    "title": "Rom calculator",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize rom calculator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "rom-calculator",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "Rom calculator"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/rom-calculator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exercise-prescription",
+    "title": "Exercise prescription",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize exercise prescription and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "exercise-prescription",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "Exercise prescription"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/exercise-prescription",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "progress-chart",
+    "title": "Progress chart",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize progress chart and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "progress-chart",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "Progress chart"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/progress-chart",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointment-optimize",
+    "title": "Appointment optimize",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize appointment optimize and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "appointment-optimize",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "Appointment optimize"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/appointment-optimize",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patient-dropout-predict",
+    "title": "Patient dropout predict",
+    "group": "Physical therapy movement analyzer",
+    "description": "Organize patient dropout predict and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "patient-dropout-predict",
+        "source": "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+        "kind": "route",
+        "label": "Patient dropout predict"
+      }
+    ],
+    "owner": "AIPhysicalTherapyMovementAnalyzer",
+    "alternatives": [],
+    "path": "/features/patient-dropout-predict",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vitals",
+    "title": "Vital Signs",
+    "group": "Remote patient monitoring",
+    "description": "Organize vital signs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/vitals",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Vital Signs"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/vitals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medications",
+    "title": "Medications",
+    "group": "Remote patient monitoring",
+    "description": "Organize medications and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/medications",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Medications"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/medications",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "care-plans",
+    "title": "Care Plans",
+    "group": "Remote patient monitoring",
+    "description": "Organize care plans and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/care-plans",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Care Plans"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/care-plans",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "consultations",
+    "title": "Consultations",
+    "group": "Remote patient monitoring",
+    "description": "Organize consultations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/consultations",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Consultations"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/consultations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "devices",
+    "title": "Devices",
+    "group": "Remote patient monitoring",
+    "description": "Organize devices and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/devices",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Devices"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/devices",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Medical Devices"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/devices",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "alerts",
+    "title": "Alerts",
+    "group": "Remote patient monitoring",
+    "description": "Organize alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/alerts",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Alerts"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/alerts",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Alert Management"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emergency",
+    "title": "Emergency",
+    "group": "Remote patient monitoring",
+    "description": "Organize emergency and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/emergency",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Emergency"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/emergency",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Emergency Protocols"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/emergency",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "escalation-ladder",
+    "title": "Escalation Ladder",
+    "group": "Remote patient monitoring",
+    "description": "Organize escalation ladder and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/escalation-ladder",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Escalation Ladder"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/escalation-ladder",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "simulator",
+    "title": "Device Simulator",
+    "group": "Remote patient monitoring",
+    "description": "Organize device simulator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/simulator",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Device Simulator"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/simulator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shared-decision",
+    "title": "Shared Decision",
+    "group": "Remote patient monitoring",
+    "description": "Organize shared decision and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/shared-decision",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Shared Decision"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/shared-decision",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "longitudinal-trajectory",
+    "title": "Trajectory",
+    "group": "Remote patient monitoring",
+    "description": "Organize trajectory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/longitudinal-trajectory",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Trajectory"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/longitudinal-trajectory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cost-aware-plan",
+    "title": "Cost-Aware Plan",
+    "group": "Remote patient monitoring",
+    "description": "Organize cost-aware plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/cost-aware-plan",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Cost-Aware Plan"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/cost-aware-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "caregiver-coaching",
+    "title": "Caregiver Coach",
+    "group": "Remote patient monitoring",
+    "description": "Organize caregiver coach and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/caregiver-coaching",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Caregiver Coach"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/caregiver-coaching",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "anomaly-detection-on-vitals-stream",
+    "title": "Anomaly Detection",
+    "group": "Remote patient monitoring",
+    "description": "Organize anomaly detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-anomaly-detection-on-vitals-stream",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Anomaly Detection"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/anomaly-detection-on-vitals-stream",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "caregiver-portal",
+    "title": "Caregiver Portal",
+    "group": "Remote patient monitoring",
+    "description": "Organize caregiver portal and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-caregiver-portal",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Caregiver Portal"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/caregiver-portal",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cgm-data-pipeline-dexcom-libre",
+    "title": "CGM Pipeline",
+    "group": "Remote patient monitoring",
+    "description": "Organize cgm pipeline and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-cgm-data-pipeline-dexcom-libre",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "CGM Pipeline"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/cgm-data-pipeline-dexcom-libre",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "decompensationalert-predict-acute-events",
+    "title": "Decompensation Alert",
+    "group": "Remote patient monitoring",
+    "description": "Organize decompensation alert and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-decompensationalert-predict-acute-events",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Decompensation Alert"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "decompensation-alert",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "Decompensation alert"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/decompensationalert-predict-acute-events",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ehr-hl7fhir-connector",
+    "title": "EHR HL7/FHIR",
+    "group": "Remote patient monitoring",
+    "description": "Prepare ehr hl7/fhir requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-ehr-hl7fhir-connector",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "EHR HL7/FHIR"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/ehr-hl7fhir-connector",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medication-refill-automation-pharmacy-int",
+    "title": "Med Refill Automation",
+    "group": "Remote patient monitoring",
+    "description": "Organize med refill automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-medication-refill-automation-pharmacy-int",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Med Refill Automation"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/medication-refill-automation-pharmacy-int",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medicationoptimization-appropriateness-co",
+    "title": "Med Optimization",
+    "group": "Remote patient monitoring",
+    "description": "Organize med optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-medicationoptimization-appropriateness-co",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Med Optimization"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/medicationoptimization-appropriateness-co",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mentalhealthscreening-phq9-gad7-automatio",
+    "title": "Mental Health Screen",
+    "group": "Remote patient monitoring",
+    "description": "Organize mental health screen and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-mentalhealthscreening-phq9-gad7-automatio",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Mental Health Screen"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/mentalhealthscreening-phq9-gad7-automatio",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patient-messaging-secure-inbox",
+    "title": "Secure Messaging",
+    "group": "Remote patient monitoring",
+    "description": "Organize secure messaging and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-patient-messaging-secure-inbox",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Secure Messaging"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/patient-messaging-secure-inbox",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patienteducationcustomizer-literacylangua",
+    "title": "Patient Education",
+    "group": "Remote patient monitoring",
+    "description": "Organize patient education and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-patienteducationcustomizer-literacylangua",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Patient Education"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "patient-education",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "Patient education"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/patienteducationcustomizer-literacylangua",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "phr-export-ccda-fhir-bulk",
+    "title": "PHR Export",
+    "group": "Remote patient monitoring",
+    "description": "Organize phr export and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-phr-export-ccda-fhir-bulk",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "PHR Export"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/phr-export-ccda-fhir-bulk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "socialdeterminantsassessment",
+    "title": "Social Determinants",
+    "group": "Remote patient monitoring",
+    "description": "Organize social determinants and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-socialdeterminantsassessment",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Social Determinants"
+      },
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "social-determinants",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "Social determinants"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/socialdeterminantsassessment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "telehealth-video-integration",
+    "title": "Telehealth Video",
+    "group": "Remote patient monitoring",
+    "description": "Prepare telehealth video requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-telehealth-video-integration",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Telehealth Video"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/telehealth-video-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "wearable-integration-apple-health-fitbit",
+    "title": "Wearable Integration",
+    "group": "Remote patient monitoring",
+    "description": "Prepare wearable integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "/gap-no-wearable-integration-apple-health-fitbit",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Wearable Integration"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/wearable-integration-apple-health-fitbit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mental-health-screening",
+    "title": "Mental health screening",
+    "group": "Remote patient monitoring",
+    "description": "Organize mental health screening and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "mental-health-screening",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "Mental health screening"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/mental-health-screening",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medication-optimization",
+    "title": "Medication optimization",
+    "group": "Remote patient monitoring",
+    "description": "Organize medication optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "medication-optimization",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "Medication optimization"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/medication-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive-decompensation-alerts",
+    "title": "predictive decompensation alerts",
+    "group": "Remote patient monitoring",
+    "description": "Organize predictive decompensation alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "cf-predictive-decompensation-alerts",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "predictive decompensation alerts"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/predictive-decompensation-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shared-decisionmaking-tool",
+    "title": "shared decisionmaking tool",
+    "group": "Remote patient monitoring",
+    "description": "Organize shared decisionmaking tool and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "cf-shared-decisionmaking-tool",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "shared decisionmaking tool"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/shared-decisionmaking-tool",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "social-prescribing-recommendations",
+    "title": "social prescribing recommendations",
+    "group": "Remote patient monitoring",
+    "description": "Organize social prescribing recommendations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "cf-social-prescribing-recommendations",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "social prescribing recommendations"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/social-prescribing-recommendations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "longitudinal-health-trajectory",
+    "title": "longitudinal health trajectory",
+    "group": "Remote patient monitoring",
+    "description": "Organize longitudinal health trajectory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "cf-longitudinal-health-trajectory",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "longitudinal health trajectory"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/longitudinal-health-trajectory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "costaware-treatment-planning",
+    "title": "costaware treatment planning",
+    "group": "Remote patient monitoring",
+    "description": "Organize costaware treatment planning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "cf-costaware-treatment-planning",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "costaware treatment planning"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/costaware-treatment-planning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "caregiver-support-coaching",
+    "title": "caregiver support coaching",
+    "group": "Remote patient monitoring",
+    "description": "Organize caregiver support coaching and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIRemotePatientMonitoring",
+        "path": "cf-caregiver-support-coaching",
+        "source": "/Volumes/external/projects/AIRemotePatientMonitoring",
+        "kind": "route",
+        "label": "caregiver support coaching"
+      }
+    ],
+    "owner": "AIRemotePatientMonitoring",
+    "alternatives": [],
+    "path": "/features/caregiver-support-coaching",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rules",
+    "title": "Rules & Jobs",
+    "group": "Cardiology remote monitoring suite",
+    "description": "Organize rules & jobs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "cardiology-remote-monitoring-suite",
+        "path": "rules",
+        "source": "/Volumes/external/projects/cardiology-remote-monitoring-suite/public/app.js",
+        "kind": "definition",
+        "label": "Rules & Jobs"
+      },
+      {
+        "module": "dialysis-center-operations-suite",
+        "path": "rules",
+        "source": "/Volumes/external/projects/dialysis-center-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Rules & Jobs"
+      },
+      {
+        "module": "fertility-ivf-clinic-operations-suite",
+        "path": "rules",
+        "source": "/Volumes/external/projects/fertility-ivf-clinic-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Rules & Jobs"
+      },
+      {
+        "module": "infusion-center-operations-suite",
+        "path": "rules",
+        "source": "/Volumes/external/projects/infusion-center-operations-suite/public/app.js",
+        "kind": "definition",
+        "label": "Rules & Jobs"
+      },
+      {
+        "module": "oncology-care-navigation-suite",
+        "path": "rules",
+        "source": "/Volumes/external/projects/oncology-care-navigation-suite/public/app.js",
+        "kind": "definition",
+        "label": "Rules & Jobs"
+      }
+    ],
+    "owner": "cardiology-remote-monitoring-suite",
+    "alternatives": [],
+    "path": "/features/rules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sessions",
+    "title": "Sessions",
+    "group": "Physical threapy",
+    "description": "Organize sessions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "physicalThreapy",
+        "path": "sessions",
+        "source": "/Volumes/external/projects/physicalThreapy",
+        "kind": "route",
+        "label": "Sessions"
+      }
+    ],
+    "owner": "physicalThreapy",
+    "alternatives": [],
+    "path": "/features/sessions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

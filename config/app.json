@@ -1,0 +1,35 @@
+{
+  "id": "specialty-care-platform",
+  "title": "Specialty clinic operations",
+  "buyer": "Specialty clinics and outpatient-care teams",
+  "sourceCount": 10,
+  "sources": [
+    "ai-operating-room-block-capacity",
+    "AIOptometryAssistant",
+    "AIPhysicalTherapyMovementAnalyzer",
+    "AIRemotePatientMonitoring",
+    "cardiology-remote-monitoring-suite",
+    "dialysis-center-operations-suite",
+    "fertility-ivf-clinic-operations-suite",
+    "infusion-center-operations-suite",
+    "oncology-care-navigation-suite",
+    "physicalThreapy"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46007,
+  "productName": "Specialty clinic operations Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-operating-room-block-capacity",
+    "/Volumes/external/projects/AIOptometryAssistant",
+    "/Volumes/external/projects/AIPhysicalTherapyMovementAnalyzer",
+    "/Volumes/external/projects/AIRemotePatientMonitoring",
+    "/Volumes/external/projects/cardiology-remote-monitoring-suite",
+    "/Volumes/external/projects/dialysis-center-operations-suite",
+    "/Volumes/external/projects/fertility-ivf-clinic-operations-suite",
+    "/Volumes/external/projects/infusion-center-operations-suite",
+    "/Volumes/external/projects/oncology-care-navigation-suite",
+    "/Volumes/external/projects/physicalThreapy"
+  ]
+}
