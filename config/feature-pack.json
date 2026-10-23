@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-patients",
+      "feature": "patients",
+      "title": "Patient operations insight",
+      "focus": "Summarize Patients records: totals, status mix, field coverage and recent activity. Use only supplied records; operational summary only, no diagnosis, no treatment or clinical advice."
+    },
+    {
+      "id": "insight-appointments",
+      "feature": "appointments",
+      "title": "Appointment operations insight",
+      "focus": "Summarize Appointments records: totals, status mix, field coverage and recent activity. Use only supplied records; operational summary only, no diagnosis, no treatment or clinical advice."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
